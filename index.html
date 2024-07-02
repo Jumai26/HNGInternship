@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="./index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+</head> 
+
+<body onload="timer();">
+    <div id="container">
+        <header>
+            <div>
+                <img data-testid="slackDisplayPicture" class="" src="./image/picture.jpg" alt="display picture">
+            </div>
+            <div>
+                <h2 data-testid="slackDisplayName">Gloria Williams</h2>
+                <p data-testid="slackEmail" class="slack-email">willyabiodun@gmail.com</p>
+            </div>
+        </header>
+        <main>
+            <h3>About me:</h3>
+            <p>Gloria is a young front-end developer vast in using front-end technologies such as HTML, CSS, and
+                languages and frameworks such as tailwindcss and Javascript. <br>
+                I am currently undergoing an internship with HNG.
+            <h3>My goals for the next 2 years in the tech field</h3>
+            <p>In the next two years i hope to:</p>
+            <ul>
+                <li>
+                    Master advanced JavaScript concepts and explore modern frameworks like
+                    <strong><code>React or Vue.js</code></strong> and also create
+                    and showcase diverse projects that highlight my skills in
+                    <strong><code>HTML, CSS, TailwindCSS, and JavaScript.</code></strong>
+                </li>
+                <li>
+                    Engage in open-source projects to collaborate with other developers and gain practical experience.
+                </li>
+                <li>
+                    Secure a well-paying job as a front-end developer by showcasing your skills and experience.
+                </li>
+                <li>
+                    Use my skills to develop a digital platform to advocate for Sexual and Reproductive Health and
+                    Rights (SRHR), contributing to a meaningful cause through technology.
+                </li>
+            </ul>
+            </p>
+            <p id="various-links">
+                <a data-testid="hngLink" href="https://hng.tech/learn">HNG Website</a>
+                <a data-testid="keywordLink" href="https://keyword.dog/">Keyword Website</a>
+                <a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site/">Scrapeanyweb Website</a>
+            </p>
+        </main>
+        <footer>
+            <p data-testid="currentDay" class="current-day"></p>
+            <p data-testid="currentTime" class="current-time"></p>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
