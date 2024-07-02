@@ -50,7 +50,7 @@ h2{
     font-size: 32px;
 }
 
-.slack-email{
+.slack-email, a{
     font-family: var(--emailtext);
     font-size: 14px;
     text-align: center;
@@ -84,9 +84,42 @@ li {
 
 #various-links {
     display: flex;
-    flex-direction: row;
-    justify-content:stretch;
-    align-items:center;
-    gap: 25%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
+.current-day, .current-time {
+    font-family: var(--text1);
+}
+
+@media screen and (max-width: 500px) {
+
+    #container {
+        margin: 20px 30px;
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .slack-email, a {
+        font-size: 12px;
+    }
+
+    main{
+        margin: 10px;
+        gap: 10px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p, li {
+        font-size: 12px;
+    }
+}
