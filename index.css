@@ -12,7 +12,7 @@
     --black: #000021;
     --grey: #bababa;
     --headings: "Satisfy";
-    --emailtext:  "M PLUS Rounded 1c", sans-serif;
+    --emailtext: "M PLUS Rounded 1c", sans-serif;
     --text1: "Kanit", sans-serif;
     --paragraphs: "Playwrite DE Grund", cursive;
 }
@@ -39,25 +39,31 @@ header {
     margin: 20px 0;
 }
 
-img {
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.image {
     width: 100%;
     border-radius: 50%;
 }
 
-h2{
+h2 {
     font-family: var(--headings, cursive);
     font-weight: 700px;
     font-size: 32px;
 }
 
-.slack-email, a{
+.slack-email,
+a {
     font-family: var(--emailtext);
     font-size: 14px;
     text-align: center;
     color: var(--blue)
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -73,8 +79,9 @@ h3 {
     margin-top: 12px;
 }
 
-p, ul {
-    font-family: var(--paragraphs); 
+p,
+ul {
+    font-family: var(--paragraphs);
     font-size: 14px;
 }
 
@@ -101,7 +108,8 @@ a:hover {
     border-radius: 2px;
 }
 
-.current-day, .current-time {
+.current-day,
+.current-time {
     font-family: var(--text1);
 }
 
@@ -116,20 +124,28 @@ a:hover {
         font-size: 20px;
     }
 
-    .slack-email, a {
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+
+    .slack-email,
+    a {
         font-size: 12px;
     }
 
-    main{
+    main {
         margin: 10px;
         gap: 10px;
     }
 
     h3 {
         font-size: 18px;
+        margin-top: 2px;
     }
 
-    p, li {
+    p,
+    li {
         font-size: 12px;
     }
 }
