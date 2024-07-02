@@ -91,6 +91,15 @@ li {
     gap: 10px;
 }
 
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 5px;
+    border-radius: 2px;
+}
+
 .current-day, .current-time {
     font-family: var(--text1);
 }
